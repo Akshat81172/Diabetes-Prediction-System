@@ -84,7 +84,7 @@ from sklearn.linear_model import LogisticRegression
 
 app = Flask(__name__) 
 
-url = "https://raw.githubusercontent.com/sarwansingh/Python/master/ClassExamples/data/diabetes.csv"
+url = "https://raw.githubusercontent.comlAkshat81172/diabetes.csv"
 df = pd.read_csv(url)
 df.gender.unique()
 df.gender.replace(['Male','Female','Other'],[1,2,3],inplace=True)
