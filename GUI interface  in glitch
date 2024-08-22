@@ -1,6 +1,6 @@
 --------------------------------------------> FRAMEWORK USING FLASK  IN GlITCH---------------------->
 
-GLITCH LINK -https://diabetespredictor.glitch.me/
+GLITCH LINK -https://diabetespredictionpredictor.glitch.me/
 
 
 
@@ -112,7 +112,7 @@ def dpredict():
   heartdisease   = int(request.form["heartdisease"])
   smokinghistory = int(request.form["smokinghistory"])
   bmi            = int(request.form["bmi"])
-  HbA1clevel     = int(request.form["HbA1clevel"])
+  HbA1clevel     = float(request.form["HbA1clevel"])
   bloodglucoselevel = int(request.form["bloodglucoselevel"])
   
   
